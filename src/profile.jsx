@@ -25,11 +25,11 @@ export default function Profile () {
                  </View>
             
       <br></br>
-   <Button style={styles.btn}  title='update'/>
+   <Button color='#96DED1'  title='update'/>
    <br></br>
-   <Button style={styles.button}  title='deactivate'/>
+   <Button color='#96DED1'  title='deactivate'/>
    <br></br>
-   <Button style={styles.button}  title='signout'/>
+   <Button color='#96DED1'  title='signout'/>
 
 
       <StatusBar style="auto" />
@@ -55,34 +55,41 @@ const styles = StyleSheet.create({
         borderTopLeftRadius:'10px',
         borderTopRightRadius:'10px',
         textAlign:'center',
-        fontSize:24,  
+        fontSize:24, 
+        bottom: 100
     },
     image:{
         width:185,
         height:186,
         borderRadius:100,
         paddingBottom:10, 
-        backgroundColor:'red'
+        backgroundColor:'gray',
+        bottom:150,
     },
     btn:{
           width:185,
         height:186,
         borderRadius:100,
         paddingBottom:10, 
-        backgroundColor:'red'
+        paddingHorizontal: 8,
+        paddingVertical: 6,
+        borderRadius: 4,
+        backgroundColor: "oldlace",
+        alignSelf: "flex-start",
+        marginHorizontal: "1%",
+        marginBottom: 6,
+        minWidth: "48%",
+        textAlign: "center",
+        
 
     },
     text:{
         backgroundColor:'#96DED1',
         width:431,
         height:78,
-        borderBottomLeftRadius:'10px',
-        borderBottomRightRadius:'10px',
-        borderTopLeftRadius:'10px',
-        borderTopRightRadius:'10px',
         textAlign:'center',
         fontSize:24,  
-        marginBottom:253 ,
+       bottom:240
         
     }
    
